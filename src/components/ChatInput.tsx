@@ -53,7 +53,7 @@ export const ChatInput = ({ onSendMessage, disabled }: ChatInputProps) => {
               "focus:border-chat-input-focus focus:ring-chat-input-focus focus:ring-2",
               "rounded-xl shadow-input transition-smooth",
               "placeholder:text-muted-foreground/60",
-              "caret-primary-foreground"
+              "caret-primary-foreground text-primary-foreground"
             )}
           />
         </div>
